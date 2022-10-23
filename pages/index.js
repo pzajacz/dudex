@@ -7,6 +7,7 @@ import {useAppContext} from "../context/states";
 import MainMenu from "../components/MainMenu";
 import ListWrapper from "../components/ListWrapper";
 import Popup from "../components/Popup";
+import { log } from 'next-axiom';
 
 export default function Home({content}) {
   const {activeMenu, setActiveMenu} = useAppContext()
@@ -27,11 +28,11 @@ export default function Home({content}) {
 
           <div className={`${style['logo']}`}>
             <Image
-              src={`/dudex-logo.jpg`}
+              src={`/dudex-logo-small.jpg`}
               alt={'dudextrailer-logo'}
-              width={1100}
-              height={630}
-              quality={100}
+              width={800}
+              height={400}
+              quality={75}
               unoptimized={false}
             />
           </div>
