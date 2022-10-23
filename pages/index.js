@@ -4,9 +4,9 @@ import styles from '../styles/Home.module.css'
 import style from './index.module.scss';
 import data from './api/data.json';
 import {useAppContext} from "../context/states";
-import MainMenu from "./components/MainMenu";
-import ListWrapper from "./components/ListWrapper";
-import Popup from "./components/Popup";
+import MainMenu from "../components/MainMenu";
+import ListWrapper from "../components/ListWrapper";
+import Popup from "../components/Popup";
 
 export default function Home({content}) {
   const {activeMenu, setActiveMenu} = useAppContext()
@@ -55,5 +55,6 @@ export default function Home({content}) {
 export async function getStaticProps() {
   return {
     props: {content: data},
+    revalidate: 604800 //one week
   }
 }

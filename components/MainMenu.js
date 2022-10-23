@@ -1,5 +1,5 @@
 import {useState} from 'react';
-import {useAppContext} from "../../context/states";
+import {useAppContext} from "../context/states";
 import style from './MainMenu.module.scss';
 
 const MainMenu = ({menuList}) => {
@@ -12,7 +12,7 @@ const MainMenu = ({menuList}) => {
   return (
     <ul className={`${style['main-menu']}`}>
       {
-        menuList.map((item, i)=> {
+        menuList && menuList.map((item, i)=> {
           return (
             <li
               className={item.list.length ? (isActive ? 'active' : null) : `${style['inactive']}`}

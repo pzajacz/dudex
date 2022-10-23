@@ -1,6 +1,7 @@
 import style from "./Popup.module.scss";
 import Image from "next/image";
-import {useAppContext} from "../../context/states";
+import {useAppContext} from "../context/states";
+import defaultImage from '../public/popups/utanfuto_mini.jpg'
 
 const Popup = ({content}) => {
   const {activePopup, setActivePopup} = useAppContext();
@@ -10,7 +11,7 @@ const Popup = ({content}) => {
       <div className={`${style['wrapper']}`}>
         <div className={`${style['header']}`}>
           <Image
-            src={`/popups/${content.image}.jpg`}
+            src={`/popups/${content.image}.jpg` || defaultImage}
             alt={content.title}
             width={600}
             height={250}
