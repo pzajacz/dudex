@@ -10,4 +10,3 @@ function MyApp({ Component, pageProps }) {
 }
 
 export default MyApp
-export { reportWebVitals } from 'next-axiom';
