@@ -32,7 +32,7 @@ export default function Home({content}) {
               width={800}
               height={400}
               quality={75}
-              unoptimized={true}
+              unoptimized={false}
             />
           </div>
           <div className={`${style['slogan']}`}>
