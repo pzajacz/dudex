@@ -10,8 +10,7 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 80px;
-  margin-bottom: 30px;
+  margin-top: 60px;
   li {
     @include baseBox;
     color: $c-green-text;

@@ -23,7 +23,8 @@ const ListWrapper = ({content}) => {
                 alt={item.title}
                 width={200}
                 height={102}
-                quality={100}
+                quality={75}
+                unoptimized={false}
               />
               </span>
           </div>

@@ -15,7 +15,8 @@ const Popup = ({content}) => {
             alt={content.title}
             width={600}
             height={250}
-            quality={100}
+            quality={75}
+            unoptimized={false}
           />
           <svg
             onClick={() => {

@@ -1,4 +1,61 @@
 
 .logo-container {
   text-align: center;
+  position: relative;
+}
+
+.logo {
+  text-align: center;
+  transition: all .3s;
+  cursor: pointer;
+  background-color: #040444;
+  overflow: hidden;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 450px
+}
+
+.slogan {
+  position: absolute;
+  top: 75px;
+  left: 0;
+  right: 0;
+  margin: 0 auto;
+  color: #7ce04a;
+  letter-spacing: 1px;
+  max-width: 35%;
+  text-align: center
+}
+
+.slogan h1 {
+  font-size: 30px;
+  font-weight: 700
+}
+
+.slogan h2 {
+  font-size: 20px
+}
+
+.info-text {
+  letter-spacing: 1px;
+  text-align: center;
+  max-width: 370px;
+  font-size: 15px;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  bottom: -5px
+}
+
+.info-text, .info-text a {
+  color: #7ce04a
+}
+
+.info-text-mobile a, .info-text a {
+  font-weight: 700;
+  color: #fff
 }

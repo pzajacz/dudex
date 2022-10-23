@@ -25,15 +25,21 @@ export default function Home({content}) {
 
         <div className={`${style['logo-container']}`}>
 
-          <div className="dudex-logo" data-toggle="modal" data-target="#company">
-            logo
-            {/*<img src="img/logo/DudexLogo05.JPG" alt="dudex-logo">*/}
+          <div className={`${style['logo']}`}>
+            <Image
+              src={`/dudex-logo.jpg`}
+              alt={'dudextrailer-logo'}
+              width={1100}
+              height={630}
+              quality={100}
+              unoptimized={false}
+            />
           </div>
-          <div className="slogan">
+          <div className={`${style['slogan']}`}>
             <h1>MINDEN AMI UTÁNFUTÓ</h1>
             <h2>Egyedi utánfutók gyártása</h2>
           </div>
-          <div className="info-text">
+          <div className={`${style['info-text']}`}>
             Aki minden kérdésére válaszol: IFJ. DUDÁS LÁSZLÓ,
             ahol kérdezhet: <a href="tel:+36309085873">{content.phone}</a> telefonon vagy
             <a href="mailro:dudextrailer.futo@gmail.com">{content.email}</a> email címen vagy
