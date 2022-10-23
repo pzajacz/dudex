@@ -1,11 +1,11 @@
 /** @type {import('next').NextConfig} */
 
-const { withAxiom } = require('next-axiom');
-
-module.exports = withAxiom({
-  reactStrictMode: false,
+const nextConfig = {
+  reactStrictMode: true,
   swcMinify: true,
   images: {
     formats: ['image/avif','image/webp'],
   },
-})
+}
+
+module.exports = nextConfig

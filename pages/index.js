@@ -7,7 +7,6 @@ import {useAppContext} from "../context/states";
 import MainMenu from "../components/MainMenu";
 import ListWrapper from "../components/ListWrapper";
 import Popup from "../components/Popup";
-import { log } from 'next-axiom';
 
 export default function Home({content}) {
   const {activeMenu, setActiveMenu} = useAppContext()
@@ -33,7 +32,7 @@ export default function Home({content}) {
               width={800}
               height={400}
               quality={75}
-              unoptimized={false}
+              unoptimized={true}
             />
           </div>
           <div className={`${style['slogan']}`}>
@@ -62,6 +61,6 @@ export default function Home({content}) {
 export async function getStaticProps() {
   return {
     props: {content: data},
-    revalidate: 604800 //one week
+    revalidate: 10
   }
 }
