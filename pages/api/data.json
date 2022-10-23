@@ -1,0 +1,141 @@
+{
+  "email": "dudextrailer.futo@gmail.com",
+  "phone": "+36 30 908 5873",
+  "categories": [
+    {
+      "type": "autó",
+      "list": [
+        {
+          "title": "autószállító trailer 3.5t",
+          "image": "auto35",
+          "data": {
+            "MÉRET": "5000MM X 2000MM X 550MM",
+            "SÚLY": "730KG",
+            "ÖSSZSÚLY": "3500KG",
+            "BEVONAT": "TŰZIHORGANY",
+            "MŰSZAKIADATOK" : "TELJES LED VILÁGÍTÁS, KNOTT TANDEM FUTÓMŰ, KNOTT KAPCSOLÓFEJ, 4MM BORDÁSLEMEZ, CSÖRLŐTARTÓ ÁLLVÁNY, VONÓGÖMB",
+            "ÁR": "1.850.000 FT (AZ ÁR TARTALMAZZA AZ ÁFÁT)"
+          }
+
+        },
+        {
+          "title": "autószállító trailer 2.0t",
+          "image": "auto20",
+          "data": {
+            "MÉRET": "3700MM X 2000MM X 500MM",
+            "SÚLY": "420KG",
+            "ÖSSZSÚLY": "2500KG",
+            "BEVONAT": "TŰZIHORGANY",
+            "MŰSZAKI ADATOK": "TELJES LED VILÁGÍTÁS, KNOTT TANDEM FUTÓMŰ, KNOTT KAPCSOLÓFEJ, 12MM RÉTEGELTLEMEZ, CSÖRLŐTARTÓ ÁLLVÁNY, ELEKTROMOS CSÖRLŐ, PÓTKERÉK (R10), VONÓGÖMB, SZERSZÁMOS LÁDA,",
+            "ÁR": "1.950.000 FT (AZ ÁR TARTALMAZZA AZ ÁFÁT)"
+          }
+        }
+      ]
+    },
+    {
+      "type": "motor",
+      "list": [
+        {
+          "title": "4-es motorszállító",
+          "image": "motor4",
+          "data": {
+            "SÚLY": "320KG",
+            "ÖSSZSÚLY": "1300KG",
+            "BEVONAT": "TŰZIHORGANY",
+            "MŰSZAKIADATOK" : "TELJES LED VILÁGÍTÁS, KNOTT FUTÓMŰ, KNOTT KAPCSOLÓFEJ, 4 DB MOTOR SZÁLLÍTÓ ÁLLVÁNY",
+            "ÁR": "érdeklődjön!"
+          }
+
+        },
+        {
+          "title": "motor-quad szállító",
+          "image": "motor-quad",
+          "data": {
+            "SÚLY": "180KG",
+            "ÖSSZSÚLY": "750KG",
+            "BEVONAT": "TŰZIHORGANY",
+            "MŰSZAKI ADATOK": "TELJES LED VILÁGÍTÁS, KNOTT FUTÓMŰ, KNOTT KAPCSOLÓFEJ, QUAD SZÁLLÍTÓ RÁMPA, FELHAJTÓ RÁMPA, 3MOTORSZÁLLÍTÓ BILINCS",
+            "ÁR": "érdeklődjön!"
+          }
+        }
+      ]
+    },
+    {
+      "type": "quad",
+      "list": [
+        {
+          "title": "motor-quad szállító",
+          "image": "motor-quad",
+          "data": {
+            "SÚLY": "180KG",
+            "ÖSSZSÚLY": "750KG",
+            "BEVONAT": "TŰZIHORGANY",
+            "MŰSZAKI ADATOK": "TELJES LED VILÁGÍTÁS, KNOTT FUTÓMŰ, KNOTT KAPCSOLÓFEJ, QUAD SZÁLLÍTÓ RÁMPA, FELHAJTÓ RÁMPA, 3MOTORSZÁLLÍTÓ BILINCS",
+            "ÁR": "érdeklődjön!"
+          }
+        },
+        {
+          "title": "billenő platós quad szállító",
+          "image": "quad2",
+          "data": {
+            "SÚLY": "220KG",
+            "ÖSSZSÚLY": "750KG",
+            "BEVONAT": "TŰZIHORGANY",
+            "MŰSZAKI ADATOK": "TELJES LED VILÁGÍTÁS, KNOTT FUTÓMŰ, KNOTT KAPCSOLÓFEJ, PADLÓ 12MM RÉTEGELTLEMEZ",
+            "ÁR": "érdeklődjön!"
+          }
+        }
+      ]
+    },
+    {
+      "type": "jetski",
+      "list": [
+        {
+          "title": "auti 3.5t",
+          "size": "ldkfldkfldkf"
+        },
+        {
+          "title": "auti 2.0t",
+          "size": "ldkfldkfldkf"
+        }
+      ]
+    },
+    {
+      "type": "hajó",
+      "list": []
+    },
+    {
+      "type": "ebike",
+      "list": [
+        {
+          "title": "EBIKE SZÁLLÍTÓ TRAILER (6DB)",
+          "image": "ebike",
+          "data": {
+            "SÚLY": "160KG",
+            "ÖSSZSÚLY": "550KG",
+            "BEVONAT": "TŰZIHORGANY",
+            "MŰSZAKIADATOK": "TELJES LED VILÁGÍTÁS, KNOTT FUTÓMŰ, KNOTT KAPCSOLÓFEJ",
+            "ÁR": "Érdeklődjön!"
+          }
+        }
+      ]
+    },
+    {
+      "type": "áru/anyag",
+      "list": [
+        {
+          "title": "auti 3.5t",
+          "size": "ldkfldkfldkf"
+        },
+        {
+          "title": "auti 2.0t",
+          "size": "ldkfldkfldkf"
+        }
+      ]
+    },
+    {
+      "type": "egyéb",
+      "list": []
+    }
+  ]
+}

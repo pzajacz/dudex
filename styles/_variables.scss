@@ -1,0 +1,22 @@
+$c-base-color: #040444;
+$c-green-text: #7CE04A;
+$c-white: #cecece;
+$c-grey--dark: #222;
+
+$c-main-text:$c-green-text;
+
+@mixin boxShadow {
+  box-shadow: rgba(0, 0, 0, 0.1) 0 20px 25px -5px,
+  rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+@mixin baseBox {
+  transition: all .3s;
+  border-radius: 7px;
+  border: 1px solid $c-green-text;
+  background-color: rgba($c-green-text, .15);
+  &:hover {
+    background-color: rgba($c-green-text, .25);
+  }
+
+}

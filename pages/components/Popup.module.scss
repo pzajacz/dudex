@@ -1,0 +1,87 @@
+@import './styles/variables';
+
+.backdrop{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba($c-grey--dark, .5);
+  display: block;
+}
+
+.wrapper {
+  position: relative;
+  @include boxShadow;
+  width: 600px;
+  background-color: $c-white;
+  margin: 50px auto;
+}
+
+.header {
+  position: relative;
+  svg {
+    transition: all .3s;
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    fill: $c-green-text;
+    width: 30px;
+    cursor: pointer;
+    opacity: .6;
+    &:hover {
+      opacity: 1;
+    }
+  }
+}
+
+.title {
+  position: absolute;
+  bottom: 20px;
+  left: 30px;
+  color: $c-green-text;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 19px;
+  text-shadow: 0 1px 0 #000;
+  letter-spacing: 2px;
+}
+
+.body {
+  color: $c-grey--dark;
+  padding: 30px;
+}
+
+.data {
+  list-style: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+  padding-inline-start: 0;
+
+  li {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    &:last-child {
+      margin-top: 15px;
+    }
+    span {
+      font-weight: 700;
+    }
+  }
+}
+
+.footer {
+  padding: 15px 30px;
+  background-color: $c-grey--dark;
+  justify-content: space-between;
+  display: flex;
+  a {
+    font-weight: 300;
+    color: $c-green-text;
+  }
+}
