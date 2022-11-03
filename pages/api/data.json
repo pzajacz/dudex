@@ -24,7 +24,7 @@
           "data": {
             "MÉRET": "3700MM X 2000MM X 500MM",
             "SÚLY": "420KG",
-            "ÖSSZSÚLY": "2500KG",
+            "ÖSSZSÚLY": "2000KG",
             "BEVONAT": "TŰZIHORGANY",
             "MŰSZAKI ADATOK": "TELJES LED VILÁGÍTÁS, KNOTT TANDEM FUTÓMŰ, KNOTT KAPCSOLÓFEJ, 12MM RÉTEGELTLEMEZ, CSÖRLŐTARTÓ ÁLLVÁNY, ELEKTROMOS CSÖRLŐ, PÓTKERÉK (R10), VONÓGÖMB, SZERSZÁMOS LÁDA,",
             "ÁR": "1.950.000 FT (AZ ÁR TARTALMAZZA AZ ÁFÁT)"
@@ -150,6 +150,70 @@
     {
       "type": "áru/anyag",
       "list": [
+        {
+          "title": "ÁRÚ/ANYAG SZÁLLÍTÓ UTÁNFUTÓ",
+          "image": "aru1",
+          "data": {
+            "SÚLY": "150KG",
+            "ÖSSZSÚLY": "750KG",
+            "méret": "2130mm x 1270mm (raktér),",
+            "BEVONAT": "TŰZIHORGANY",
+            "MŰSZAKIADATOK": "teljes led világítás, KNOTT futómű, KNOTT kapcsolófej, padló 12mm rétegelt lemez",
+            "ÁR": "Érdeklődjön!"
+          }
+        },
+        {
+          "title": "ÁRÚ/ANYAG SZÁLLÍTÓ UTÁNFUTÓ",
+          "image": "aru2",
+          "data": {
+            "kialakítás": "platós",
+            "SÚLY": "170KG",
+            "ÖSSZSÚLY": "750KG",
+            "méret": "2130mm x 1270mm x 200mm (raktér),",
+            "BEVONAT": "TŰZIHORGANY",
+            "MŰSZAKIADATOK": "teljes led világítás, KNOTT futómű, KNOTT kapcsolófej, padló 12mm rétegelt lemez",
+            "ÁR": "Érdeklődjön!"
+          }
+        },
+        {
+          "title": "ÁRÚ/ANYAG SZÁLLÍTÓ UTÁNFUTÓ",
+          "image": "aru3",
+          "data": {
+            "kialakítás": "plató plusz rács (500 mm)",
+            "SÚLY": "180KG",
+            "ÖSSZSÚLY": "750KG",
+            "méret": "2130mm x 1270mm x 600mm (raktér),",
+            "BEVONAT": "TŰZIHORGANY",
+            "MŰSZAKIADATOK": "teljes led világítás, KNOTT futómű, KNOTT kapcsolófej, padló 12mm rétegelt lemez",
+            "ÁR": "Érdeklődjön!"
+          }
+        },
+        {
+          "title": "ÁRÚ/ANYAG SZÁLLÍTÓ UTÁNFUTÓ",
+          "image": "aru4",
+          "data": {
+            "kialakítás": "plató + rács (500mm)",
+            "SÚLY": "180KG",
+            "ÖSSZSÚLY": "750KG",
+            "méret": "2130mm x 1270mm x 1200mm (raktér),",
+            "BEVONAT": "TŰZIHORGANY",
+            "MŰSZAKIADATOK": "teljes led világítás, KNOTT futómű, KNOTT kapcsolófej, padló 12mm rétegelt lemez",
+            "ÁR": "Érdeklődjön!"
+          }
+        },
+        {
+          "title": "ÁRÚ/ANYAG SZÁLLÍTÓ UTÁNFUTÓ",
+          "image": "aru5",
+          "data": {
+            "kialakítás": "platós",
+            "SÚLY": "215KG",
+            "ÖSSZSÚLY": "750KG",
+            "méret": "2420mm x 1320mm x 200mm (raktér),",
+            "BEVONAT": "TŰZIHORGANY",
+            "MŰSZAKIADATOK": "teljes led világítás, KNOTT futómű, KNOTT kapcsolófej, padló 12mm rétegelt lemez",
+            "ÁR": "Érdeklődjön!"
+          }
+        }
       ]
     },
     {
@@ -159,8 +223,7 @@
           "title": "Rönk és vadászállító",
           "image": "ronk1",
           "data": {
-            "BEVONAT": "TŰZIHORGANY",
-            "ÁR": "300.000 Ft (Az ár tartalmazza az áfát)"
+            "ÁR": "300.000 Ft + ÁFA"
           }
         }
       ]
