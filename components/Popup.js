@@ -5,6 +5,8 @@ import defaultImage from '../public/popups/utanfuto_mini.jpg'
 
 const Popup = ({content}) => {
   const {activePopup, setActivePopup} = useAppContext();
+  const {showGallery, setShowGallery} = useAppContext();
+  const {hasGallery, setHasGallery} = useAppContext();
 
   return (
     <div className={`${style['backdrop']}`}>
@@ -40,6 +42,8 @@ const Popup = ({content}) => {
             }
           </ul>
         </div>
+
+        <button className={`${style['gallery-open']}`} onClick={()=>setShowGallery(true)}>További képek</button>
 
         <div className={`${style['footer']}`}>
           <span><a href="tel:+36 30 908 5873">+36 30 908 5873</a></span>

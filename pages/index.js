@@ -6,10 +6,12 @@ import Image from 'next/image'
 import MainMenu from "../components/MainMenu";
 import ListWrapper from "../components/ListWrapper";
 import Popup from "../components/Popup";
+import Gallery from "../components/Gallery";
 
 export default function Home({content}) {
   const {activeMenu, setActiveMenu} = useAppContext()
   const {activePopup, setActivePopup} = useAppContext();
+  const {showGallery, setShowGallery} = useAppContext();
 
   return (
     <>
@@ -51,6 +53,8 @@ export default function Home({content}) {
         {activeMenu !== null && <ListWrapper content={data.categories[activeMenu].list}/>}
 
         {activePopup !== null &&  <Popup content={activePopup}/>}
+
+        {showGallery !== false && <Gallery id={activePopup.image}/>}
 
       </main>
     </>
