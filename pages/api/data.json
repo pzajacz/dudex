@@ -89,6 +89,42 @@
     {
       "type": "jetski",
       "list": [
+        {
+          "title": "JETSKI SZÁLLÍTÓ TRAILER",
+          "image": "jetsky1",
+          "data": {
+            "SÚLY": "160kg",
+            "ÖSSZSÚLY": "750KG",
+            "tertószerkezet": "vascső",
+            "BEVONAT": "TŰZIHORGANY",
+            "MŰSZAKI ADATOK": "teljes led világítás, KNOTT futómű, KNOTT kapcsolófej, KNOTT csörlő",
+            "ÁR": "érdeklődjön!"
+          }
+        },
+        {
+          "title": "JETSKI SZÁLLÍTÓ TRAILER",
+          "image": "jetsky2",
+          "data": {
+            "SÚLY": "160kg",
+            "ÖSSZSÚLY": "750KG",
+            "tertószerkezet": "görgős",
+            "BEVONAT": "TŰZIHORGANY",
+            "MŰSZAKI ADATOK": "teljes led világítás, KNOTT futómű, KNOTT kapcsolófej, KNOTT csörlő",
+            "ÁR": "érdeklődjön!"
+          }
+        },
+        {
+          "title": "JETSKI SZÁLLÍTÓ TRAILER",
+          "image": "jetsky3",
+          "data": {
+            "SÚLY": "160kg",
+            "ÖSSZSÚLY": "750KG",
+            "tertószerkezet": "fa",
+            "BEVONAT": "TŰZIHORGANY",
+            "MŰSZAKI ADATOK": "teljes led világítás, KNOTT futómű, KNOTT kapcsolófej, KNOTT csörlő",
+            "ÁR": "érdeklődjön!"
+          }
+        }
       ]
     },
     {
@@ -118,7 +154,16 @@
     },
     {
       "type": "egyéb",
-      "list": []
+      "list": [
+        {
+          "title": "Rönk és vadászállító",
+          "image": "ronk1",
+          "data": {
+            "BEVONAT": "TŰZIHORGANY",
+            "ÁR": "300.000 Ft (Az ár tartalmazza az áfát)"
+          }
+        }
+      ]
     }
   ]
 }
