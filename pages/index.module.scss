@@ -1,59 +1,116 @@
 
+@import "styles/base";
+
+.main {
+  padding: 0 1.5rem;
+  display: flex;
+  flex-direction: column;
+  border: 5px solid $c-green-text;
+  min-height: 100vh;
+  @include breakpoint(large) {
+    padding: 0;
+  }
+}
+
+.menu-container {
+  order: 2;
+  @include breakpoint(large) {
+    order: 1;
+  }
+}
+
+.list-container {
+  order: 3;
+  @include breakpoint(large) {
+    order: 3;
+  }
+}
+
 .logo-container {
   text-align: center;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  order: 1;
+  @include breakpoint(large) {
+    order: 2;
+  }
 }
 
 .logo {
   text-align: center;
   transition: all .3s;
   overflow: hidden;
-  margin-top: 40px;
-  margin-bottom: 40px;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 450px
+  width: 50%;
+  max-width: 250px;
+  margin-top: 20px;
+  @include breakpoint(large) {
+    //margin-top: 40px;
+    //margin-bottom: 40px;
+    height: 450px;
+    max-width: none;
+    width: auto;
+  }
 }
 
 .slogan {
-  position: absolute;
-  top: 35px;
-  left: 0;
-  right: 0;
   margin: 0 auto;
   color: #7ce04a;
   letter-spacing: 1px;
-  max-width: 35%;
-  text-align: center
+  text-align: center;
+  @include breakpoint(large) {
+    // max-width: 35%;
+    position: absolute;
+    top: 80px;
+    left: 0;
+    right: 0;
+  }
+
 }
 
 .slogan h1 {
-  font-size: 30px;
-  font-weight: 700
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0;
+  @include breakpoint(large) {
+    font-size: 30px;
+  }
 }
 
 .slogan h2 {
-  font-size: 20px
+  font-size: 16px;
+  margin: 0;
+  @include breakpoint(large) {
+    font-size: 20px;
+  }
 }
 
 .info-text {
+  position: relative;
   letter-spacing: 1px;
   text-align: center;
   max-width: 370px;
   font-size: 15px;
-  position: absolute;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
-  bottom: -25px
+  margin: auto auto 35px;
+  order: 4;
+  justify-self: flex-end;
+  @include breakpoint(large) {
+    order: 3;
+    justify-self: auto;
+    margin: -65px auto 0;
+    z-index: 1;
+  }
 }
 
 .info-text, .info-text a {
-  color: #7ce04a
+  color: $c-main-text;
 }
 
 .info-text-mobile a, .info-text a {
   font-weight: 700;
-  color: #fff
+  color: $c-white;
 }

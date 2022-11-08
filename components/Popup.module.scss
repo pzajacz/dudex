@@ -1,23 +1,27 @@
-@import '../styles/variables';
+@import "styles/base";
 
 .backdrop{
   width: 100%;
-  height: 100%;
-  position: absolute;
+  height: 100vh;
+  position: fixed;
   top: 0;
   bottom: 0;
   left: 0;
   right: 0;
   background-color: rgba($c-grey--dark, .5);
   display: block;
+  z-index: 10;
 }
 
 .wrapper {
-  position: relative;
   @include boxShadow;
-  width: 600px;
+  position: relative;
   background-color: $c-white;
-  margin: 50px auto;
+  width: 100%;
+  @include breakpoint(medium) {
+    margin: 50px auto;
+    width: 600px;
+  }
 }
 
 .header {
@@ -39,15 +43,19 @@
 
 .title {
   position: absolute;
-  bottom: 20px;
+  bottom: 10px;
   left: 30px;
   color: $c-green-text;
   text-transform: uppercase;
   font-weight: 700;
-  font-size: 28px;
+  font-size: 18px;
   line-height: 19px;
   text-shadow: 0 1px 0 #000;
   letter-spacing: 2px;
+  @include breakpoint(medium) {
+    font-size: 28px;
+    bottom: 20px;
+  }
 }
 
 .body {
@@ -92,8 +100,13 @@
 .footer {
   padding: 15px 30px;
   background-color: $c-grey--dark;
-  justify-content: space-between;
   display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  align-items: center;
+  @include breakpoint(medium) {
+    flex-direction: row;
+  }
   a {
     font-weight: 300;
     color: $c-green-text;

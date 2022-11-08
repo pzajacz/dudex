@@ -21,8 +21,10 @@ export default function Home({content}) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main>
-        <MainMenu menuList={content.categories}/>
+      <main className={`${style['main']}`}>
+        <div className={`${style['menu-container']}`}>
+          <MainMenu menuList={content.categories}/>
+        </div>
 
         <div className={`${style['logo-container']}`}>
 
@@ -40,17 +42,22 @@ export default function Home({content}) {
             <h1>MINDEN AMI UTÁNFUTÓ</h1>
             <h2>Egyedi utánfutók gyártása</h2>
           </div>
-          <div className={`${style['info-text']}`}>
-            Aki minden kérdésére válaszol: IFJ. DUDÁS LÁSZLÓ,
-            ahol kérdezhet: <a href="tel:+36309085873">{content.phone}</a> telefonon vagy
-            <a href="mailro:dudextrailer.futo@gmail.com">{content.email}</a> email címen vagy
-            személyesen Nyíregyházán, a <a
-            href="https://www.google.hu/maps/place/Ny%C3%ADregyh%C3%A1za,+Csal%C3%A1d+u.+84,+4400/@47.9578322,21.7331283,17z/data=!3m1!4b1!4m5!3m4!1s0x47389fb029edfaa5:0xa8e2b78b6227f5dc!8m2!3d47.9578286!4d21.7353223"
-            target="_blank" rel={"noreferrer"}>Család út 84.</a> szám alatt!
-          </div>
         </div>
 
-        {activeMenu !== null && <ListWrapper content={data.categories[activeMenu].list}/>}
+        <div className={`${style['info-text']}`}>
+          Aki minden kérdésére válaszol: IFJ. DUDÁS LÁSZLÓ,
+          ahol kérdezhet: <a href="tel:+36309085873">{content.phone}</a> telefonon vagy
+          <a href="mailro:dudextrailer.futo@gmail.com">{content.email}</a> email címen vagy
+          személyesen Nyíregyházán, a <a
+          href="https://www.google.hu/maps/place/Ny%C3%ADregyh%C3%A1za,+Csal%C3%A1d+u.+84,+4400/@47.9578322,21.7331283,17z/data=!3m1!4b1!4m5!3m4!1s0x47389fb029edfaa5:0xa8e2b78b6227f5dc!8m2!3d47.9578286!4d21.7353223"
+          target="_blank" rel={"noreferrer"}>Család út 84.</a> szám alatt!
+        </div>
+
+        {activeMenu !== null &&
+          <div className={`${style['list-container']}`}>
+            <ListWrapper content={data.categories[activeMenu].list}/>
+          </div>
+        }
 
         {activePopup !== null &&  <Popup content={activePopup}/>}
 

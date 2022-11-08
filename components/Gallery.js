@@ -15,6 +15,11 @@ const Gallery = ({id}) => {
     images.push({original: `galleries/${id}/${item}`, thumbnail: `galleries/${id}/${item}`})
   })
 
+  const onLoad = function onLoad() {
+    // console.log("load")
+  }
+
+
   return (
     <div className={`${styles["backdrop"]}`}>
       <div className={`${styles["wrapper"]}`}>
@@ -28,7 +33,7 @@ const Gallery = ({id}) => {
           <path
             d="M256 512c141.4 0 256-114.6 256-256S397.4 0 256 0S0 114.6 0 256S114.6 512 256 512zM175 175c9.4-9.4 24.6-9.4 33.9 0l47 47 47-47c9.4-9.4 24.6-9.4 33.9 0s9.4 24.6 0 33.9l-47 47 47 47c9.4 9.4 9.4 24.6 0 33.9s-24.6 9.4-33.9 0l-47-47-47 47c-9.4 9.4-24.6 9.4-33.9 0s-9.4-24.6 0-33.9l47-47-47-47c-9.4-9.4-9.4-24.6 0-33.9z"/>
         </svg>
-        <ImageGallery items={images} showThumbnails={false} showFullscreenButton={false} showPlayButton={false} showBullets={true} lazyLoad={true}/>
+        <ImageGallery items={images} onImageLoad={onLoad} showThumbnails={false} showFullscreenButton={false} showPlayButton={false} showBullets={true} lazyLoad={true}/>
       </div>
     </div>
 
