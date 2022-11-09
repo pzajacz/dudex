@@ -19,6 +19,7 @@ const Popup = ({content}) => {
             height={250}
             quality={75}
             unoptimized={false}
+            priority={true}
           />
           <svg
             onClick={() => {
@@ -43,7 +44,7 @@ const Popup = ({content}) => {
           </ul>
         </div>
 
-        <button className={`${style['gallery-open']}`} onClick={()=>setShowGallery(true)}>További képek</button>
+        <button rel={'preload'} className={`${style['gallery-open']}`} onClick={()=>setShowGallery(true)}>További képek</button>
 
         <div className={`${style['footer']}`}>
           <span><a href="tel:+36 30 908 5873">+36 30 908 5873</a></span>
