@@ -9,7 +9,7 @@ import Popup from "../components/Popup";
 import Gallery from "../components/Gallery";
 
 export default function Home({content}) {
-  const {activeMenu, setActiveMenu} = useAppContext()
+  const {activeMenu, setActiveMenu} = useAppContext();
   const {activePopup, setActivePopup} = useAppContext();
   const {showGallery, setShowGallery} = useAppContext();
 
