@@ -13,6 +13,8 @@ export default function Home({content}) {
   const {activePopup, setActivePopup} = useAppContext();
   const {showGallery, setShowGallery} = useAppContext();
 
+
+
   return (
     <>
       <Head>
